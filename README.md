@@ -1,0 +1,2 @@
+# EquatableArray
+Add readme ^^
