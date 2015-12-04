@@ -12,8 +12,8 @@ let stuff: EquatableArray = ["Hello", "No"]
 ```
 
 # TODO
-Make it a cocoapod. Does anyone want to use this?
-I'm sure Apple will fix so arrays can be equatable in a near future (Swift 3?)
+* Make it a cocoapod. Does anyone want to use this?
+* I'm sure Apple will fix so arrays can be equatable in a near future (Swift 3?)
 
 # License
 MIT license. See LICENSE
