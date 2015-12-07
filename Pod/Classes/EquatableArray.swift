@@ -20,6 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+import Foundation
+
 public struct EquatableArray<Element: Equatable>: CollectionType, MutableCollectionType, Equatable, ArrayLiteralConvertible, CustomStringConvertible, CustomDebugStringConvertible, RangeReplaceableCollectionType {
     private var _array = [Element]()
     public typealias Index = Int
@@ -100,4 +102,8 @@ public struct EquatableArray<Element: Equatable>: CollectionType, MutableCollect
     public mutating func removeAll(keepCapacity keepCapacity: Bool) {
         _array.removeAll(keepCapacity: keepCapacity)
     }
+}
+
+public func == <T: Equatable>(lhs: EquatableArray<T>, rhs: EquatableArray<T>) -> Bool {
+    return lhs._array == rhs._array
 }

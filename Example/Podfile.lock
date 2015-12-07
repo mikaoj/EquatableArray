@@ -1,0 +1,14 @@
+PODS:
+  - EquatableArray (1.0.0)
+
+DEPENDENCIES:
+  - EquatableArray (from `../`)
+
+EXTERNAL SOURCES:
+  EquatableArray:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EquatableArray: ab2ae53d88d8163f541d753381ace18c601314a1
+
+COCOAPODS: 0.39.0
