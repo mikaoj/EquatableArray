@@ -1,6 +1,0 @@
-framework module EquatableArray {
-  umbrella header "EquatableArray-umbrella.h"
-
-  export *
-  module * { export * }
-}

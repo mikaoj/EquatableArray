@@ -1,0 +1,5 @@
+osx_image: xcode8
+language: objective-c
+script:
+- set -o pipefail && xcodebuild test -scheme EquatableArray -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' | xcpretty
+- pod lib lint

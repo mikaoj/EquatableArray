@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "EquatableArray"
-  s.version          = "1.0.0"
+  s.version          = "2.0.0"
   s.summary          = "A Swift array wrapper that is Equatable"
   s.description      = <<-DESC
                         A wrapper arround swift array that is Equatable.
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'Source/*.swift'
 end

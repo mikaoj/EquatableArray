@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "EquatableArray_Example.app"
-               BlueprintName = "EquatableArray_Example"
-               ReferencedContainer = "container:EquatableArray.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "EquatableArray_Tests.xctest"
-               BlueprintName = "EquatableArray_Tests"
+               BlueprintIdentifier = "35CB8EA41D816EB4005F8EB0"
+               BuildableName = "EquatableArray.framework"
+               BlueprintName = "EquatableArray"
                ReferencedContainer = "container:EquatableArray.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "EquatableArray_Tests.xctest"
-               BlueprintName = "EquatableArray_Tests"
+               BlueprintIdentifier = "35CB8EB11D816ED6005F8EB0"
+               BuildableName = "Test.xctest"
+               BlueprintName = "Test"
                ReferencedContainer = "container:EquatableArray.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "EquatableArray_Example.app"
-            BlueprintName = "EquatableArray_Example"
+            BlueprintIdentifier = "35CB8EA41D816EB4005F8EB0"
+            BuildableName = "EquatableArray.framework"
+            BlueprintName = "EquatableArray"
             ReferencedContainer = "container:EquatableArray.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "EquatableArray_Example.app"
-            BlueprintName = "EquatableArray_Example"
+            BlueprintIdentifier = "35CB8EA41D816EB4005F8EB0"
+            BuildableName = "EquatableArray.framework"
+            BlueprintName = "EquatableArray"
             ReferencedContainer = "container:EquatableArray.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "EquatableArray_Example.app"
-            BlueprintName = "EquatableArray_Example"
+            BlueprintIdentifier = "35CB8EA41D816EB4005F8EB0"
+            BuildableName = "EquatableArray.framework"
+            BlueprintName = "EquatableArray"
             ReferencedContainer = "container:EquatableArray.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
