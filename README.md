@@ -16,6 +16,7 @@ So I wrapped an array in EquatableArray instead, you can use it like this:
 ```swift
 let stuff: EquatableArray = ["Hello", "No"]
 ```
+And now I can pass it along to functions expecting an Equatable
 If you make it a var you can append/remove just as you would with an array:
 ```swift
 var stuff: EquatableArray = ["Hello", "No"]
