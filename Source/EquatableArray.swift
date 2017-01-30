@@ -22,10 +22,10 @@
 
 import Swift
 
-public struct EquatableArray<T: Equatable>: MutableCollection, CustomStringConvertible, CustomDebugStringConvertible, ExpressibleByArrayLiteral, RangeReplaceableCollection, Equatable {
+public struct EquatableArray<T: Equatable>: MutableCollection, CustomStringConvertible, CustomDebugStringConvertible, ExpressibleByArrayLiteral, Equatable, Sequence {
     public typealias Element = T
 
-    fileprivate var array = [Element]()
+    private var array = [Element]()
     public init() {}
 
     // MARK: MutableCollection
@@ -64,17 +64,8 @@ public struct EquatableArray<T: Equatable>: MutableCollection, CustomStringConve
         array = Array(elements)
     }
 
-    // MARK: RangeReplaceableCollection
-    public mutating func replaceSubrange<C>(_ subrange: Range<EquatableArray.Index>, with newElements: C) where C : Collection, C.Iterator.Element == T {
-        array.replaceSubrange(subrange, with: newElements)
+    // MARK: Equatable
+    public static func ==<T: Equatable>(lhs: EquatableArray<T>, rhs: EquatableArray<T>) -> Bool {
+        return lhs.array == rhs.array
     }
-
-    public mutating func removeLast() {
-        array.removeLast()
-    }
-}
-
-// MARK: Equatable
-public func ==<T: Equatable>(lhs: EquatableArray<T>, rhs: EquatableArray<T>) -> Bool {
-    return lhs.array == rhs.array
 }

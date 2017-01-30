@@ -37,22 +37,4 @@ class Tests: XCTestCase {
 
         XCTAssert(first == second)
     }
-
-    func testEqualAfterAddingElement() {
-        var first: EquatableArray = ["Yes"]
-        let second: EquatableArray = ["Yes", "No"]
-
-        first.append("No")
-
-        XCTAssert(first == second)
-    }
-
-    func testEqualAfterRemovingElement() {
-        var first: EquatableArray = ["Yes", "No", "Maybe"]
-        let second: EquatableArray = ["Yes", "No"]
-
-        first.removeLast()
-
-        XCTAssert(first == second)
-    }
 }
